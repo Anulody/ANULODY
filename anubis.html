@@ -1,6 +1,4 @@
-# Create an updated version of anubis.html with improved title/subtitle colors
-
-updated_anubis_html = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -26,12 +24,11 @@ updated_anubis_html = """<!DOCTYPE html>
       font-size: 3em;
       margin-bottom: 0.2em;
       font-family: 'Cinzel', serif;
-      color: #E0C78A;
-      text-shadow: 0 0 12px #000;
+      text-shadow: 0 0 15px #000;
     }
     .subtitle {
       font-size: 1.4em;
-      color: #E0C78A;
+      color: #EEE;
       text-shadow: 0 0 10px #000;
       margin-bottom: 50px;
     }
@@ -60,11 +57,3 @@ updated_anubis_html = """<!DOCTYPE html>
   <a href="index.html" class="btn">← Back to Main Gate</a>
 </body>
 </html>
-"""
-
-# Save the updated file
-updated_path = "/mnt/data/anubis_updated.html"
-with open(updated_path, "w") as f:
-    f.write(updated_anubis_html)
-
-updated_path
