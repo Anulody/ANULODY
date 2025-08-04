@@ -1,6 +1,6 @@
-# Create an updated version of anubis.html with improved title/subtitle colors
+# Recreate and save the clean, final version of anubis.html without any stray comments or extra lines
 
-updated_anubis_html = """<!DOCTYPE html>
+clean_anubis_html = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -62,9 +62,9 @@ updated_anubis_html = """<!DOCTYPE html>
 </html>
 """
 
-# Save the updated file
-updated_path = "/mnt/data/anubis_updated.html"
-with open(updated_path, "w") as f:
-    f.write(updated_anubis_html)
+# Save new clean version
+clean_path = "/mnt/data/anubis_final_clean.html"
+with open(clean_path, "w") as f:
+    f.write(clean_anubis_html)
 
-updated_path
+clean_path
